@@ -27,9 +27,9 @@
         - 其余跟上面的语法相同
     - from module_name import func_name, class_name
         - 按上述方法选择性导入
-        - 使用的时候可以直接使用导入的内，不需要前缀
+        - 使用的时候可以直接导入需要的类，不需要前缀
         - 案例 p03
-    - form module_name import *
+    - from module_name import *
         - 导入模块所有内容
         - 案例 p04
     - if \__name\__ == "\__main\__":的使用
